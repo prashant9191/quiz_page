@@ -53,7 +53,7 @@ header {
 }
 #loding_div{
   position: fixed;
-  top: 180px;
+  top: 100px;
   left: 20%;
   right: 20%;
   display: flex;
@@ -67,7 +67,7 @@ header {
 }
 #loding_div>h2{
   text-align: center;
-  color: #FDD835;
+  color: #d00c15;
   font-size: 35px;
   font-weight: bolder;
 }
