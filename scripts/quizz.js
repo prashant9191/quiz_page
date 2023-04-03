@@ -186,7 +186,7 @@ async function fetch_save_pariticipents(obj) {
       icon: "success",
     });
     await new Promise((resolve) => setTimeout(resolve, 2500));
-    window.location.href = "https://fun-note-365-hiqd-pc9zevvmo-prititi.vercel.app/";
+    window.location.href = "https://fun-note-365-hiqd.vercel.app/";
   } catch (error) {
     console.log(error);
   }
