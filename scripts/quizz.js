@@ -260,7 +260,7 @@ function countdownmaneger(n) {
         icon: "success",
       });
       await new Promise((resolve) => setTimeout(resolve, 1500));
-      window.location.href = "./index.html";
+      window.location.href = "https://fun-note-365-fsps.vercel.app/";
     } else {
       seconds = seconds < 10 ? "0" + seconds : seconds;
       timertext.innerHTML = `${minutes}:${seconds}`;
